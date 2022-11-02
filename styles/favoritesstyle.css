@@ -1,0 +1,48 @@
+.favorite-template {
+    margin: 20px 125px 20px 125px;
+}
+
+.no-favorites {
+    margin: 75px 125px 0px 125px;
+}
+
+.no-favorites img {
+    width: 200px;
+    height: 200px;
+}
+
+.no-favorites h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.movie-rating {
+    color: white;
+    border-radius: 10px;
+    background-color: #0E6EFD;
+    justify-content: center;
+}
+
+.remove-from-favorites {
+    color: white;
+
+    padding: 20px 30px 20px 30px;
+
+    background-color: #DC3545;
+
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: opacity 0.15s ease-in-out;
+}
+
+.remove-from-favorites:hover {
+    opacity: 0.3;
+}
+
+.remove-from-favorites:active {
+    transform: scale(0.97, 0.97);
+}

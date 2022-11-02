@@ -1,0 +1,60 @@
+#maincontainer {
+    margin: 20px 125px 20px 125px;
+    padding: 20px 20px 20px 20px;
+}
+
+.btn {
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.btn:active {
+    transform: scale(0.97, 0.97);
+}
+
+#add-to-favorites:hover {
+    background-color: #0D85FE;
+    color: white!important;
+}
+
+#remove-from-favorites:hover {
+    background-color: #DC3545;
+    color: white!important;
+}
+
+#reviews {
+    margin-top: 20px;
+}
+
+.detail {
+    text-align: right!important;
+}
+
+.review-label {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px!important;
+}
+
+.form-label {
+    margin-bottom: 5px!important;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.user-review {
+    margin-top: 20px;
+}
+
+.new-review .addable, .edit-review .editable
+{
+    display: inline;
+}
+
+.new-review .editable, .edit-review .addable
+{
+    display: none;
+}

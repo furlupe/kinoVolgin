@@ -1,0 +1,26 @@
+.movie-template {
+    margin: 20px 125px 20px 125px;
+}
+
+.boldText {
+    font-weight: bold!important;
+}
+
+.movie-rating {
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border-radius: 10px;
+}
+
+#pagelist {
+    margin-left: 125px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+}

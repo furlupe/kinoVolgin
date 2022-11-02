@@ -1,0 +1,54 @@
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 7px;
+}
+
+#profile {
+    margin-top: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.col{
+    margin-top: 15px;
+    border-width: 2px;
+}
+
+#avatar-image {
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.readonly #save, .editable #edit{
+    display: none;
+}
+
+.editable #save, .readonly #edit{
+    display: inline;
+}
+
+.valid small {
+    display: none;
+}
+
+.valid input {
+    border-color: #CED4DA;
+}
+
+.invalid small {
+    display: inline;
+}
+
+.invalid input {
+    border-color: #DF4759;
+}
