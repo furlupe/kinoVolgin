@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="/styles/favoritesstyle.css">
+<div class="card d-none favorite-template">
+    <div class="card-body">
+        <div class="row">
+            <img class="col-md-2 col-xxl-1 movie-poster align-self-center img-fluid" src="">
+            <div class="col d-flex flex-column">
+                <div>
+                    <h4 class="pt-2 movie-name boldText">Название фильма</h4>
+                    <p class="movie-year">Год выпуска</p>
+                </div>
+                <div>
+                    <p class="movie-extinfo">Страна • жанр, жанр, ...</p>
+                </div>
+                <div class="d-flex justify-content-start mt-auto">
+                    <h5>
+                        <span class="badge movie-rating ">Средняя оценка - 10.0</span>  
+                    </h5>
+                </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-end me-3">
+                <button class="remove-from-favorites" data-movie="">Удалить из избранного</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="no-favorites d-none justify-content-center row">
+    <div class="col">
+        <img src="/assets/images/sad_emoji.png" class="mx-auto d-block">
+        <h1 class="display-2">Вы еще не добавили ни один фильм в Избранное<h1></h1>
+    </div>
+</div>
+
+<div id="favoritemovies"></div>
